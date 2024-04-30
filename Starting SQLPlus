@@ -1,0 +1,11 @@
+-- Inizialice SQLPlus from a Terminal --
+sqlplus sys as sysdba
+
+-- Create a user (C## -> indicates that it is a common user) --
+Create user C##ismael identified by ismael default tablespace users;
+
+-- Gives permmisions to the new user (to connect and create objects) --
+grant connect, resource, DBA to C##ismael;
+
+-- Connect to DBA with the new user --
+connect c##ismael;
