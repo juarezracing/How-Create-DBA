@@ -6,7 +6,7 @@ This is a proyect for study Data Base Module from DAM FP superior
   1. Create user
   2. Create tables
   3. Create realationships
-  4. Doing inquires
+  4. Query
   5.
   6.
   
